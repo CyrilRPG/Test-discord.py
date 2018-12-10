@@ -1,5 +1,5 @@
-#Création d'un bot discord en python avec Cyril et StevieShow
-#--------------------------Fonction messages----------------
+#--------------Création d'un bot discord en python avec Cyril-----
+#--------------------------Importation des modules----------------
 #------------------------------------------------------------
 import discord
 import random
@@ -38,10 +38,8 @@ async def on_ready():
 #On définit le message de connexion
 
 
-nexus.run("NTIwNjc0ODIzODk1MTIxOTIw.Du2FpA.hIX2e-uw0IDWyU7RoMeqqO2w7SQ")
+nexus.run("Token")
 
-
-	
 
 
 
