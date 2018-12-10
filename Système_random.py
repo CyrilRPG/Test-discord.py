@@ -14,7 +14,7 @@ async def on_message(message): #On lit un message que l'on va indiquer
 
     if message.author == nexus.user:
         return
-    if message.content.startswith('Je veux jouer'):
+    if message.content.startswith('.play'):
         await nexus.send_message(message.channel, 'Choisis un nombre entre 1 et 10')
 
         def guess_check(m):
