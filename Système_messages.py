@@ -51,4 +51,4 @@ async def on_message(message): #On lit un message que l'on va indiquer
             await nexus.send_message(message.channel, "John Cena !")  
          
 
-nexus.run("NTIwNjc0ODIzODk1MTIxOTIw.Du2FpA.hIX2e-uw0IDWyU7RoMeqqO2w7SQ")
+nexus.run("token")
