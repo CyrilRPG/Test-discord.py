@@ -39,11 +39,3 @@ async def on_ready():
 
 
 nexus.run("Token")
-
-
-
-
-
-
-
-
