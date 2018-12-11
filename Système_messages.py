@@ -1,4 +1,4 @@
-#---------Création d'un bot discord en python avec Cyril---------
+#---------Création d'un bot discord en python avec Cyril : Messages !
 #--------------------------Importation des modules----------------
 #------------------------------------------------------------
 import discord
