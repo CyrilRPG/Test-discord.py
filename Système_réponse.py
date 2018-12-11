@@ -15,6 +15,10 @@ async def on_message(message):
         message2 = 'Salut {0.author.mention} !'.format(message) #la réponse du bot
         await nexus.send_message(message.channel, message2) 
         #le message va être affiché dans le même channel que l'user a mit
+    elif message.content.startswith('.salut'): #une conditon de message
+        message2 = 'Salut {0.author.mention} !'.format(message) #la réponse du bot
+        await nexus.send_message(message.channel, message2) 
+        #le message va être affiché dans le même channel que l'user a mit
 
 @nexus.event 
 async def on_ready():
